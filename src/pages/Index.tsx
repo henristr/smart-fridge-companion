@@ -2,37 +2,37 @@ import { Github, BookOpen, ShoppingCart, Clock, ChefHat, Heart, Users, Smartphon
 import logo from "@/assets/logo.jpeg";
 
 const features = [
-  {
-    icon: ShoppingCart,
-    title: "Produktverwaltung",
-    desc: "Produkte hinzufügen, bearbeiten und löschen – mit integriertem Barcode-Scanner.",
-  },
-  {
-    icon: Clock,
-    title: "Ablaufdatum-Tracking",
-    desc: "Farbliche Warnungen bei bald ablaufenden Produkten, damit nichts verschwendet wird.",
-  },
-  {
-    icon: ChefHat,
-    title: "KI-Rezeptgenerator",
-    desc: "Rezeptvorschläge basierend auf vorhandenen Zutaten – powered by Gemini AI.",
-  },
-  {
-    icon: Heart,
-    title: "Rezept-History & Favoriten",
-    desc: "Speichere generierte Rezepte und markiere deine Lieblingsrezepte.",
-  },
-  {
-    icon: Users,
-    title: "Mehrbenutzersystem",
-    desc: "Login, Passwortverwaltung und Admin-Modus für die ganze Familie.",
-  },
-  {
-    icon: Smartphone,
-    title: "PWA-Support",
-    desc: "Installierbar auf dem Handy, offline-fähig – wie eine native App.",
-  },
-];
+{
+  icon: ShoppingCart,
+  title: "Produktverwaltung",
+  desc: "Produkte hinzufügen, bearbeiten und löschen – mit integriertem Barcode-Scanner."
+},
+{
+  icon: Clock,
+  title: "Ablaufdatum-Tracking",
+  desc: "Farbliche Warnungen bei bald ablaufenden Produkten, damit nichts verschwendet wird."
+},
+{
+  icon: ChefHat,
+  title: "KI-Rezeptgenerator",
+  desc: "Rezeptvorschläge basierend auf vorhandenen Zutaten – powered by Gemini AI."
+},
+{
+  icon: Heart,
+  title: "Rezept-History & Favoriten",
+  desc: "Speichere generierte Rezepte und markiere deine Lieblingsrezepte."
+},
+{
+  icon: Users,
+  title: "Mehrbenutzersystem",
+  desc: "Login, Passwortverwaltung und Admin-Modus für die ganze Familie."
+},
+{
+  icon: Smartphone,
+  title: "PWA-Support",
+  desc: "Installierbar auf dem Handy, offline-fähig – wie eine native App."
+}];
+
 
 const Index = () => {
   return (
@@ -58,8 +58,8 @@ const Index = () => {
               href="https://github.com/henristr/SmartFridgePWA"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-medium bg-card/80 backdrop-blur border border-border/50 text-foreground hover:bg-primary/10 hover:border-primary/30 transition-all"
-            >
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-medium bg-card/80 backdrop-blur border border-border/50 text-foreground hover:bg-primary/10 hover:border-primary/30 transition-all">
+
               <Github className="w-4 h-4" />
               <span className="hidden sm:inline">GitHub</span>
             </a>
@@ -67,8 +67,8 @@ const Index = () => {
               href="https://docs.henristr.de/share/67ql3pqwwj/p/smart-fridge-installation-iKotdAW5TP"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-medium bg-gradient-to-r from-primary to-accent text-primary-foreground hover:opacity-90 transition-all"
-            >
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-medium bg-gradient-to-r from-primary to-accent text-primary-foreground hover:opacity-90 transition-all">
+
               <BookOpen className="w-4 h-4" />
               <span className="hidden sm:inline">Docs</span>
             </a>
@@ -83,8 +83,8 @@ const Index = () => {
             <img
               src={logo}
               alt="SmartFridge"
-              className="w-24 h-24 sm:w-32 sm:h-32 rounded-3xl object-cover shadow-2xl shadow-primary/25 ring-2 ring-border/30"
-            />
+              className="w-24 h-24 sm:w-32 sm:h-32 rounded-3xl object-cover shadow-2xl shadow-primary/25 ring-2 ring-border/30" />
+
           </div>
           <h1 className="text-5xl sm:text-7xl font-extrabold tracking-tight mb-6">
             <span className="bg-gradient-to-r from-primary via-primary to-accent bg-clip-text text-transparent">
@@ -109,18 +109,18 @@ const Index = () => {
             Funktionen
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            {features.map((f) => (
-              <div
-                key={f.title}
-                className="group relative rounded-2xl p-6 backdrop-blur-lg bg-card/50 border border-border/40 hover:border-primary/40 hover:bg-card/70 transition-all duration-300 hover:shadow-lg hover:shadow-primary/5"
-              >
+            {features.map((f) =>
+            <div
+              key={f.title}
+              className="group relative rounded-2xl p-6 backdrop-blur-lg bg-card/50 border border-border/40 hover:border-primary/40 hover:bg-card/70 transition-all duration-300 hover:shadow-lg hover:shadow-primary/5">
+
                 <div className="w-11 h-11 rounded-xl bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center mb-4 group-hover:from-primary/30 group-hover:to-accent/30 transition-all">
                   <f.icon className="w-5 h-5 text-primary" />
                 </div>
                 <h3 className="text-lg font-semibold mb-2 text-foreground">{f.title}</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">{f.desc}</p>
               </div>
-            ))}
+            )}
           </div>
         </section>
       </main>
@@ -128,11 +128,11 @@ const Index = () => {
       {/* Footer */}
       <footer className="border-t border-border/40 py-8">
         <p className="text-center text-xs text-muted-foreground/60">
-          © 2025 SmartFridge · Henri Stricker & Justus Böwer
+          SmartFridge · Henri Stricker & Justus Böwer
         </p>
       </footer>
-    </div>
-  );
+    </div>);
+
 };
 
 export default Index;
