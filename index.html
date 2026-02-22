@@ -1,24 +1,25 @@
 <!doctype html>
-<html lang="en">
+<html lang="de">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- TODO: Set the document title to the name of your application -->
-    <title>Lovable App</title>
-    <meta name="description" content="Lovable Generated Project" />
-    <meta name="author" content="Lovable" />
-
-    <!-- TODO: Update og:title to match your application name -->
-    <meta property="og:title" content="Lovable App" />
-    <meta property="og:description" content="Lovable Generated Project" />
+    <title>SmartFridge – Intelligente Kühlschrankverwaltung</title>
+    <meta name="description" content="SmartFridge ist eine Progressive Web App zur intelligenten Verwaltung deines Kühlschranks mit Barcode-Scanner, Ablaufdatum-Tracking und KI-Rezeptgenerator." />
+    <meta name="author" content="Henri Stricker & Justus Böwer" />
+    <meta property="og:title" content="SmartFridge – Intelligente Kühlschrankverwaltung" />
+    <meta property="og:description" content="Verwalte deinen Kühlschrank smart – mit Barcode-Scanner, Ablaufdatum-Tracking und KI-Rezeptvorschlägen." />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@Lovable" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <script>
+      // Auto dark mode based on system preference
+      if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.documentElement.classList.add('dark');
+      }
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+        document.documentElement.classList.toggle('dark', e.matches);
+      });
+    </script>
   </head>
-
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
