@@ -31,7 +31,7 @@ const features = [
   {
     icon: Smartphone,
     title: "PWA – die Kühlschrank App fürs Handy",
-    desc: "Installierbar auf dem Smartphone, offline-fähig – funktioniert wie eine native App, ganz ohne App Store."
+    desc: "Installierbar auf dem Smartphone – funktioniert wie eine native App, ganz ohne App Store."
   }
 ];
 
@@ -58,7 +58,6 @@ const benefits = [
   "Automatische Warnungen bevor das Ablaufdatum erreicht ist",
   "Rezeptgenerator mit KI – Rezepte aus vorhandenen Zutaten, kein extra Einkauf nötig",
   "Barcode scannen statt manuell eintippen – spart Zeit im Alltag",
-  "Funktioniert offline – ideal für Keller oder Vorratsräume mit schlechtem Empfang",
   "Kostenlos und Open Source – perfekt für Studenten und technikaffine Haushalte"
 ];
 
@@ -78,10 +77,6 @@ const faqs = [
   {
     q: "Muss ich SmartFridge im App Store installieren?",
     a: "Nein – SmartFridge ist eine Progressive Web App (PWA). Du kannst sie direkt im Browser nutzen oder auf deinem Smartphone installieren, ganz ohne App Store. Einfach die Seite öffnen und als App zum Homescreen hinzufügen."
-  },
-  {
-    q: "Funktioniert die Kühlschrank App auch offline?",
-    a: "Ja, dank PWA-Technologie funktioniert SmartFridge auch ohne Internetverbindung. Perfekt für Keller oder Vorratsräume mit schlechtem Empfang. Deine Daten werden automatisch synchronisiert, sobald du wieder online bist."
   },
   {
     q: "Wie funktioniert der Rezeptgenerator mit KI?",
@@ -157,7 +152,7 @@ const Index = () => {
             Die Kühlschrank App, die Lebensmittelverschwendung vermeidet – mit KI-Rezeptgenerator.
           </p>
           <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed">
-            Lebensmittel verwalten, Ablaufdaten tracken und Rezepte aus vorhandenen Zutaten generieren – kostenlos, offline-fähig und perfekt für Studenten-WGs und technikaffine Haushalte.
+            Lebensmittel verwalten, Ablaufdaten tracken und Rezepte aus vorhandenen Zutaten generieren – kostenlos, perfekt für Studenten-WGs und technikaffine Haushalte.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center mb-6">
             <a
@@ -220,7 +215,7 @@ const Index = () => {
               </h2>
             </div>
             <p className="text-center text-muted-foreground max-w-2xl mx-auto mb-8 text-base sm:text-lg leading-relaxed">
-              SmartFridge ist die Kühlschrank App, die Ordnung schafft. Lebensmittel verwalten per Barcode-Scan, rechtzeitig an Ablaufdaten erinnert werden und mit dem Rezeptgenerator mit KI aus vorhandenen Zutaten kochen – alles in einer App, die auch offline funktioniert. So lässt sich Lebensmittelverschwendung vermeiden, ohne den Alltag komplizierter zu machen.
+              SmartFridge ist die Kühlschrank App, die Ordnung schafft. Lebensmittel verwalten per Barcode-Scan, rechtzeitig an Ablaufdaten erinnert werden und mit dem Rezeptgenerator mit KI aus vorhandenen Zutaten kochen – alles in einer intuitiven Anwendung. So lässt sich Lebensmittelverschwendung vermeiden, ohne den Alltag komplizierter zu machen.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
               <div className="flex flex-col items-center gap-2">
