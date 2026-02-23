@@ -5,87 +5,91 @@ import logo from "@/assets/logo.jpeg";
 const features = [
   {
     icon: ShoppingCart,
-    title: "Produktverwaltung",
-    desc: "Produkte hinzufügen, bearbeiten und löschen – mit integriertem Barcode-Scanner."
+    title: "Lebensmittel verwalten per App",
+    desc: "Produkte hinzufügen, bearbeiten und löschen – mit integriertem Barcode-Scanner. Dein gesamter Kühlschrankinhalt auf einen Blick."
   },
   {
     icon: Clock,
-    title: "Ablaufdatum-Tracking",
-    desc: "Farbliche Warnungen bei bald ablaufenden Produkten, damit nichts verschwendet wird."
+    title: "Ablaufdatum-Tracking & Warnungen",
+    desc: "Farbliche Warnungen bei bald ablaufenden Produkten – die Ablaufdatum App, die dafür sorgt, dass nichts mehr im Müll landet."
   },
   {
     icon: ChefHat,
-    title: "KI-Rezeptgenerator",
-    desc: "Rezeptvorschläge basierend auf vorhandenen Zutaten – powered by Gemini AI."
+    title: "Rezeptgenerator mit KI",
+    desc: "Rezeptvorschläge basierend auf vorhandenen Zutaten – powered by Gemini AI. Koche, was du hast, statt extra einzukaufen."
   },
   {
     icon: Heart,
     title: "Rezept-History & Favoriten",
-    desc: "Speichere generierte Rezepte und markiere deine Lieblingsrezepte."
+    desc: "Speichere generierte Rezepte und markiere deine Lieblingsrezepte – dein persönliches Kochbuch, das mitwächst."
   },
   {
     icon: Users,
-    title: "Mehrbenutzersystem",
-    desc: "Login, Passwortverwaltung und Admin-Modus für die ganze Familie."
+    title: "Mehrbenutzersystem für WGs & Familien",
+    desc: "Login, Passwortverwaltung und Admin-Modus – perfekt für Studenten-WGs und technikaffine Haushalte."
   },
   {
     icon: Smartphone,
-    title: "PWA-Support",
-    desc: "Installierbar auf dem Handy, offline-fähig – wie eine native App."
+    title: "PWA – die Kühlschrank App fürs Handy",
+    desc: "Installierbar auf dem Smartphone, offline-fähig – funktioniert wie eine native App, ganz ohne App Store."
   }
 ];
 
 const problems = [
   {
     icon: AlertTriangle,
-    title: "Lebensmittelverschwendung",
-    desc: "In Deutschland landen jährlich 11 Millionen Tonnen Lebensmittel im Müll – oft, weil der Überblick fehlt."
+    title: "Lebensmittelverschwendung vermeiden",
+    desc: "In Deutschland landen jährlich 11 Millionen Tonnen Lebensmittel im Müll. Besonders in Studenten-WGs und Familienhaushalten fehlt oft der Überblick über den Kühlschrankinhalt."
   },
   {
     icon: Clock,
-    title: "Abgelaufene Produkte",
-    desc: "Wer kennt es nicht? Joghurt, Käse oder Aufschnitt vergessen und erst Wochen später wiedergefunden."
+    title: "Abgelaufene Produkte im Kühlschrank",
+    desc: "Joghurt, Käse oder Aufschnitt vergessen und erst Wochen später wiedergefunden? Ohne eine Ablaufdatum App passiert das ständig."
   },
   {
     icon: ShoppingCart,
-    title: "Doppelkäufe",
-    desc: "Ohne Übersicht kauft man Produkte nach, die noch im Kühlschrank stehen – Geld und Platz verschwendet."
+    title: "Doppelkäufe & unnötige Ausgaben",
+    desc: "Ohne digitale Übersicht kauft man Lebensmittel nach, die noch im Kühlschrank stehen – verschwendetes Geld, besonders für Studierende mit kleinem Budget."
   }
 ];
 
 const benefits = [
-  "Nie wieder abgelaufene Lebensmittel übersehen",
-  "Automatische Warnungen bevor Produkte ablaufen",
-  "KI-Rezepte aus vorhandenen Zutaten – kein extra Einkauf nötig",
-  "Barcode scannen statt manuell eintippen",
-  "Funktioniert offline – auch im Keller mit schlechtem Empfang",
-  "Kostenlos und Open Source"
+  "Lebensmittel verwalten auf einen Blick – nie wieder abgelaufene Produkte übersehen",
+  "Automatische Warnungen bevor das Ablaufdatum erreicht ist",
+  "Rezeptgenerator mit KI – Rezepte aus vorhandenen Zutaten, kein extra Einkauf nötig",
+  "Barcode scannen statt manuell eintippen – spart Zeit im Alltag",
+  "Funktioniert offline – ideal für Keller oder Vorratsräume mit schlechtem Empfang",
+  "Kostenlos und Open Source – perfekt für Studenten und technikaffine Haushalte"
 ];
 
 const faqs = [
   {
-    q: "Was ist SmartFridge?",
-    a: "SmartFridge ist eine kostenlose Progressive Web App zur intelligenten Verwaltung deines Kühlschranks. Du kannst Produkte per Barcode-Scanner hinzufügen, Ablaufdaten tracken und dir KI-basierte Rezeptvorschläge generieren lassen."
+    q: "Was ist SmartFridge – und für wen ist die Kühlschrank App gedacht?",
+    a: "SmartFridge ist eine kostenlose Kühlschrank App zur intelligenten Verwaltung deiner Lebensmittel. Mit dem integrierten Barcode-Scanner kannst du Produkte erfassen, Ablaufdaten tracken und dir KI-basierte Rezeptvorschläge generieren lassen. Die App richtet sich an technikaffine Haushalte, Familien und Studenten-WGs, die Lebensmittelverschwendung vermeiden möchten."
   },
   {
-    q: "Ist SmartFridge kostenlos?",
-    a: "Ja, SmartFridge ist vollständig kostenlos und Open Source. Der Quellcode ist auf GitHub verfügbar."
+    q: "Ist SmartFridge wirklich kostenlos?",
+    a: "Ja, SmartFridge ist vollständig kostenlos und Open Source. Der Quellcode ist auf GitHub verfügbar – ideal für Studierende und alle, die eine kostenlose Lösung zum Lebensmittel verwalten suchen."
   },
   {
-    q: "Muss ich SmartFridge installieren?",
-    a: "SmartFridge ist eine Progressive Web App (PWA). Du kannst sie direkt im Browser nutzen oder auf deinem Smartphone installieren – ganz ohne App Store."
+    q: "Wie funktioniert die Ablaufdatum App?",
+    a: "Du scannst ein Produkt per Barcode oder gibst es manuell ein und trägst das Ablaufdatum ein. SmartFridge zeigt dir mit farblichen Warnungen an, welche Produkte bald ablaufen – so kannst du Lebensmittelverschwendung vermeiden und rechtzeitig verbrauchen."
   },
   {
-    q: "Funktioniert SmartFridge offline?",
-    a: "Ja, dank PWA-Technologie funktioniert SmartFridge auch ohne Internetverbindung. Daten werden synchronisiert, sobald du wieder online bist."
+    q: "Muss ich SmartFridge im App Store installieren?",
+    a: "Nein – SmartFridge ist eine Progressive Web App (PWA). Du kannst sie direkt im Browser nutzen oder auf deinem Smartphone installieren, ganz ohne App Store. Einfach die Seite öffnen und als App zum Homescreen hinzufügen."
   },
   {
-    q: "Wie funktioniert der KI-Rezeptgenerator?",
-    a: "Der Rezeptgenerator analysiert die Zutaten in deinem Kühlschrank und erstellt passende Rezeptvorschläge mithilfe von Gemini AI. So kannst du kochen, was du hast – ohne extra einkaufen zu müssen."
+    q: "Funktioniert die Kühlschrank App auch offline?",
+    a: "Ja, dank PWA-Technologie funktioniert SmartFridge auch ohne Internetverbindung. Perfekt für Keller oder Vorratsräume mit schlechtem Empfang. Deine Daten werden automatisch synchronisiert, sobald du wieder online bist."
+  },
+  {
+    q: "Wie funktioniert der Rezeptgenerator mit KI?",
+    a: "Der Rezeptgenerator analysiert die Zutaten in deinem Kühlschrank und erstellt mithilfe von Gemini AI passende Rezeptvorschläge. So kannst du kochen, was du hast – ohne extra einkaufen zu müssen. Das spart Geld und hilft, Lebensmittelverschwendung zu vermeiden."
   },
   {
     q: "Können mehrere Personen SmartFridge nutzen?",
-    a: "Ja, SmartFridge unterstützt ein Mehrbenutzersystem mit Login, Passwortverwaltung und Admin-Modus – perfekt für Familien oder WGs."
+    a: "Ja, SmartFridge bietet ein Mehrbenutzersystem mit Login, Passwortverwaltung und Admin-Modus. Perfekt für Familien oder Studenten-WGs, in denen mehrere Personen den Kühlschrank gemeinsam verwalten möchten."
   }
 ];
 
@@ -150,10 +154,10 @@ const Index = () => {
             </span>
           </h1>
           <p className="text-xl sm:text-2xl font-semibold text-foreground max-w-3xl mx-auto mb-4">
-            Dein Kühlschrank, intelligent verwaltet. Weniger Verschwendung, mehr Genuss.
+            Die Kühlschrank App, die Lebensmittelverschwendung vermeidet – mit KI-Rezeptgenerator.
           </p>
           <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed">
-            Die kostenlose Progressive Web App für Ablaufdatum-Tracking, Barcode-Scanner und KI-basierte Rezeptvorschläge – direkt im Browser, ohne Installation.
+            Lebensmittel verwalten, Ablaufdaten tracken und Rezepte aus vorhandenen Zutaten generieren – kostenlos, offline-fähig und perfekt für Studenten-WGs und technikaffine Haushalte.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center mb-6">
             <a
@@ -188,7 +192,7 @@ const Index = () => {
             Das Problem
           </h2>
           <p className="text-center text-muted-foreground max-w-2xl mx-auto mb-12">
-            Millionen Haushalte kämpfen täglich mit dem gleichen Chaos im Kühlschrank.
+            Millionen Haushalte kämpfen täglich mit dem gleichen Chaos im Kühlschrank – besonders Studenten und junge Familien.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
             {problems.map((p) => (
@@ -216,7 +220,7 @@ const Index = () => {
               </h2>
             </div>
             <p className="text-center text-muted-foreground max-w-2xl mx-auto mb-8 text-base sm:text-lg leading-relaxed">
-              SmartFridge bringt Ordnung in deinen Kühlschrank. Scanne Produkte per Barcode, werde rechtzeitig an Ablaufdaten erinnert und lass dir aus vorhandenen Zutaten KI-Rezepte vorschlagen – alles in einer App, die auch offline funktioniert.
+              SmartFridge ist die Kühlschrank App, die Ordnung schafft. Lebensmittel verwalten per Barcode-Scan, rechtzeitig an Ablaufdaten erinnert werden und mit dem Rezeptgenerator mit KI aus vorhandenen Zutaten kochen – alles in einer App, die auch offline funktioniert. So lässt sich Lebensmittelverschwendung vermeiden, ohne den Alltag komplizierter zu machen.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
               <div className="flex flex-col items-center gap-2">
@@ -250,7 +254,7 @@ const Index = () => {
             Alle Funktionen
           </h2>
           <p className="text-center text-muted-foreground max-w-2xl mx-auto mb-12">
-            Alles, was du brauchst, um deinen Kühlschrank smart zu verwalten.
+            Alles, was du brauchst, um deine Lebensmittel smart zu verwalten – von der Ablaufdatum App bis zum Rezeptgenerator mit KI.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {features.map((f) => (
@@ -292,7 +296,7 @@ const Index = () => {
               Bereit, deinen Kühlschrank smart zu machen?
             </h2>
             <p className="text-primary-foreground/80 max-w-xl mx-auto mb-8 text-base sm:text-lg">
-              Starte jetzt kostenlos – keine Registrierung im App Store nötig. Einfach im Browser öffnen und loslegen.
+              Lebensmittel verwalten, Ablaufdaten tracken und KI-Rezepte generieren – starte jetzt kostenlos, direkt im Browser, ohne App Store.
             </p>
             <a
               href="https://docs.henristr.de/share/67ql3pqwwj/p/smart-fridge-installation-iKotdAW5TP"
