@@ -1,47 +1,52 @@
 <!doctype html>
 <html lang="de">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SmartFridge – Kühlschrank App zum Lebensmittel verwalten & Verschwendung vermeiden</title>
-    <meta
-      name="description"
-      content="SmartFridge ist die kostenlose Kühlschrank App mit Ablaufdatum-Tracking, Barcode-Scanner und KI-Rezeptgenerator. Lebensmittel verwalten, Verschwendung vermeiden – perfekt für Studenten und Familien."
-    />
-    <meta name="author" content="Henri Stricker & Justus Böwer" />
-    <link rel="canonical" href="https://smartfridge.henristr.de/" />
-    <meta name="robots" content="index, follow" />
-    <meta
-      name="keywords"
-      content="Kühlschrank App, Lebensmittel verwalten, Ablaufdatum App, Rezeptgenerator mit KI, Lebensmittelverschwendung vermeiden, SmartFridge, PWA, Barcode-Scanner"
-    />
-    <meta
-      name="google-site-verification"
-      content="wniBx5ZzdyRoSB0lCZJ6YCFiVhovsemWYyAxZO7ZT7M"
-    />
 
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <script>
-      // Auto dark mode based on system preference
-      if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-        document.documentElement.classList.add("dark");
-      }
-      window
-        .matchMedia("(prefers-color-scheme: dark)")
-        .addEventListener("change", (e) => {
-          document.documentElement.classList.toggle("dark", e.matches);
-        });
-    </script>
-    <meta property="og:title" content="SmartFridge – Kühlschrank App mit KI-Rezeptgenerator" />
-    <meta name="twitter:title" content="SmartFridge – Kühlschrank App mit KI-Rezeptgenerator" />
-    <meta property="og:description" content="Lebensmittel verwalten, Ablaufdaten tracken und Lebensmittelverschwendung vermeiden – mit der kostenlosen Kühlschrank App SmartFridge." />
-    <meta name="twitter:description" content="Lebensmittel verwalten, Ablaufdaten tracken und Lebensmittelverschwendung vermeiden – mit der kostenlosen Kühlschrank App SmartFridge." />
-    <meta property="og:image" content="https://smartfridge.henristr.de/og-image.png" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta name="twitter:image" content="https://smartfridge.henristr.de/og-image.png" />
-    <script type="application/ld+json">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO: Primäre Meta-Tags (Sehr wichtig für Google) -->
+  <title>SmartFridge – Nie wieder Lebensmittel verschwenden | Kühlschrank App & KI-Rezepte</title>
+  <meta name="description"
+    content="Schluss mit Lebensmittelverschwendung! Die SmartFridge App trackt Ablaufdaten & plant KI-Rezepte. Nie wieder Chaos im Kühlschrank – jetzt kostenlos nutzen." />
+  <meta name="author" content="Henri Stricker & Justus Böwer" />
+  <link rel="canonical" href="https://smartfridge.henristr.de/" />
+  <meta name="robots" content="index, follow" />
+  <meta name="google-site-verification" content="wniBx5ZzdyRoSB0lCZJ6YCFiVhovsemWYyAxZO7ZT7M" />
+
+  <!-- Dark Mode Script (Direkt im Head für kleinstes Flackern) -->
+  <script>
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      document.documentElement.classList.add("dark");
+    }
+    window
+      .matchMedia("(prefers-color-scheme: dark)")
+      .addEventListener("change", (e) => {
+        document.documentElement.classList.toggle("dark", e.matches);
+      });
+  </script>
+
+  <!-- Open Graph / Facebook (Wichtig für Social Media Klicks) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://smartfridge.henristr.de/" />
+  <meta property="og:title"
+    content="SmartFridge – Nie wieder Lebensmittel verschwenden | Kühlschrank App & KI-Rezepte" />
+  <meta property="og:description"
+    content="Schluss mit Lebensmittelverschwendung! Die SmartFridge App trackt Ablaufdaten & plant KI-Rezepte. Nie wieder Chaos im Kühlschrank – jetzt kostenlos nutzen." />
+  <meta property="og:image" content="https://smartfridge.henristr.de/og-image.png" />
+  <meta property="og:site_name" content="SmartFridge" />
+
+  <!-- Twitter Card (Wichtig für Darstellung auf X/Twitter) -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://smartfridge.henristr.de/" />
+  <meta name="twitter:title"
+    content="SmartFridge – Nie wieder Lebensmittel verschwenden | Kühlschrank App & KI-Rezepte" />
+  <meta name="twitter:description"
+    content="Schluss mit Lebensmittelverschwendung! Die SmartFridge App trackt Ablaufdaten & plant KI-Rezepte. Nie wieder Chaos im Kühlschrank – jetzt kostenlos nutzen." />
+  <meta name="twitter:image" content="https://smartfridge.henristr.de/og-image.png" />
+
+  <!-- Strukturierte Daten: FAQ (Erhöht Sichtbarkeit in den SERPs) -->
+  <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
@@ -96,14 +101,16 @@
         }
       ]
     }
-    </script>
-    <script type="application/ld+json">
+  </script>
+
+  <!-- Strukturierte Daten: SoftwareApplication (Rich Snippet in Suche) -->
+  <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "SoftwareApplication",
       "name": "SmartFridge",
       "applicationCategory": "UtilitiesApplication",
-      "operatingSystem": "Web",
+      "operatingSystem": "Web, Android, iOS",
       "offers": {
         "@type": "Offer",
         "price": "0",
@@ -115,10 +122,18 @@
         { "@type": "Person", "name": "Justus Böwer" }
       ]
     }
-    </script>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+  </script>
+</head>
+
+<body>
+  <!-- H1 für Crawler (wird von React übernommen, aber hier initial für SEO-Auffindbarkeit) -->
+  <h1
+    style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0;">
+    SmartFridge – Die Kühlschrank App zur Vermeidung von Lebensmittelverschwendung
+  </h1>
+
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
 </html>
