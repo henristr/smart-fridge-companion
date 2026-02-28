@@ -333,7 +333,7 @@ const Index = () => {
       <footer className="border-t border-border/40 py-8">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-muted-foreground/60">
-            © 2025 SmartFridge · Henri Stricker & Justus Böwer
+            SmartFridge · Henri Stricker & Justus Böwer
           </p>
           <div className="flex items-center gap-4">
             <a href="https://github.com/henristr/SmartFridgePWA" target="_blank" rel="noopener noreferrer" className="text-xs text-muted-foreground/60 hover:text-foreground transition-colors">
