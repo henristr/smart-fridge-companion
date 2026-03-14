@@ -305,6 +305,27 @@ const Index = () => {
           </div>
         </section>
 
+        {/* Über uns */}
+        <section className="max-w-6xl mx-auto px-4 sm:px-6 pb-24" aria-labelledby="about-heading">
+          <div className="rounded-3xl p-8 sm:p-12 text-center backdrop-blur-lg bg-card/50 border border-border/40">
+            <div className="flex items-center justify-center gap-3 mb-6">
+              <Users className="w-7 h-7 text-primary" />
+              <h2 id="about-heading" className="text-2xl sm:text-3xl font-bold text-foreground">
+                Über uns
+              </h2>
+            </div>
+            <p className="text-muted-foreground max-w-2xl mx-auto mb-6 text-base sm:text-lg leading-relaxed">
+              SmartFridge wurde von <span className="font-semibold text-foreground">Henri Stricker</span> und <span className="font-semibold text-foreground">Justus Böwer</span> entwickelt – zwei Schüler, die Lebensmittelverschwendung mit moderner Technologie bekämpfen wollen.
+            </p>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-3 text-sm text-muted-foreground">
+              <span>Entwickler:</span>
+              <span className="font-medium text-foreground">Henri Stricker</span>
+              <span>&</span>
+              <span className="font-medium text-foreground">Justus Böwer</span>
+            </div>
+          </div>
+        </section>
+
         {/* FAQ */}
         <section className="max-w-3xl mx-auto px-4 sm:px-6 pb-24" aria-labelledby="faq-heading">
           <h2 id="faq-heading" className="text-2xl sm:text-3xl font-bold text-center mb-12 text-foreground">
