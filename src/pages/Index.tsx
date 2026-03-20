@@ -1,6 +1,6 @@
 import { Github, BookOpen, ShoppingCart, Clock, ChefHat, Heart, Users, Smartphone, AlertTriangle, Lightbulb, CheckCircle2, ArrowRight, Scan, Bell, Shield } from "lucide-react";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import logo from "@/assets/logo.jpeg";
+import logo from "@/assets/logo.webp";
 
 const features = [
   {
