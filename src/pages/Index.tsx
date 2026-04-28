@@ -364,7 +364,7 @@ const Index = () => {
       </div>
 
       {/* Footer */}
-      <footer className="border-t border-border/40 py-8">
+      <footer className="border-t border-border/40 py-8 pb-28 sm:pb-8">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-muted-foreground/60">
             SmartFridge · Henri Stricker & Justus Böwer
