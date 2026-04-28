@@ -182,8 +182,8 @@ const Index = () => {
         </section>
 
         {/* Problem */}
-        <section className="max-w-6xl mx-auto px-4 sm:px-6 pb-24" aria-labelledby="problem-heading">
-          <h2 id="problem-heading" className="text-2xl sm:text-3xl font-bold text-center mb-4 text-foreground">
+        <section className="max-w-6xl mx-auto px-5 sm:px-6 pb-20 sm:pb-24" aria-labelledby="problem-heading">
+          <h2 id="problem-heading" className="text-3xl sm:text-3xl font-bold text-center mb-4 text-foreground">
             Das Problem
           </h2>
           <p className="text-center text-muted-foreground max-w-2xl mx-auto mb-12">
@@ -206,11 +206,11 @@ const Index = () => {
         </section>
 
         {/* Lösung */}
-        <section className="max-w-6xl mx-auto px-4 sm:px-6 pb-24" aria-labelledby="solution-heading">
+        <section className="max-w-6xl mx-auto px-5 sm:px-6 pb-20 sm:pb-24" aria-labelledby="solution-heading">
           <div className="rounded-3xl p-8 sm:p-12 backdrop-blur-lg bg-primary/5 border border-primary/20">
             <div className="flex items-center justify-center gap-3 mb-6">
               <Lightbulb className="w-7 h-7 text-primary" />
-              <h2 id="solution-heading" className="text-2xl sm:text-3xl font-bold text-foreground">
+              <h2 id="solution-heading" className="text-3xl sm:text-3xl font-bold text-foreground">
                 Die Lösung: SmartFridge
               </h2>
             </div>
@@ -244,8 +244,8 @@ const Index = () => {
         </section>
 
         {/* Features */}
-        <section className="max-w-6xl mx-auto px-4 sm:px-6 pb-24" aria-labelledby="features-heading">
-          <h2 id="features-heading" className="text-2xl sm:text-3xl font-bold text-center mb-4 text-foreground">
+        <section className="max-w-6xl mx-auto px-5 sm:px-6 pb-20 sm:pb-24" aria-labelledby="features-heading">
+          <h2 id="features-heading" className="text-3xl sm:text-3xl font-bold text-center mb-4 text-foreground">
             Alle Funktionen
           </h2>
           <p className="text-center text-muted-foreground max-w-2xl mx-auto mb-12">
@@ -268,8 +268,8 @@ const Index = () => {
         </section>
 
         {/* Vorteile */}
-        <section className="max-w-6xl mx-auto px-4 sm:px-6 pb-24" aria-labelledby="benefits-heading">
-          <h2 id="benefits-heading" className="text-2xl sm:text-3xl font-bold text-center mb-12 text-foreground">
+        <section className="max-w-6xl mx-auto px-5 sm:px-6 pb-20 sm:pb-24" aria-labelledby="benefits-heading">
+          <h2 id="benefits-heading" className="text-3xl sm:text-3xl font-bold text-center mb-12 text-foreground">
             Deine Vorteile
           </h2>
           <div className="max-w-2xl mx-auto">
@@ -285,9 +285,9 @@ const Index = () => {
         </section>
 
         {/* CTA */}
-        <section className="max-w-6xl mx-auto px-4 sm:px-6 pb-24" aria-labelledby="cta-heading">
+        <section className="max-w-6xl mx-auto px-5 sm:px-6 pb-20 sm:pb-24" aria-labelledby="cta-heading">
           <div className="rounded-3xl p-8 sm:p-12 text-center bg-gradient-to-r from-primary to-accent">
-            <h2 id="cta-heading" className="text-2xl sm:text-3xl font-bold text-primary-foreground mb-4">
+            <h2 id="cta-heading" className="text-3xl sm:text-3xl font-bold text-primary-foreground mb-4">
               Bereit, deinen Kühlschrank smart zu machen?
             </h2>
             <p className="text-primary-foreground/80 max-w-xl mx-auto mb-8 text-base sm:text-lg">
@@ -306,11 +306,11 @@ const Index = () => {
         </section>
 
         {/* Über uns */}
-        <section className="max-w-6xl mx-auto px-4 sm:px-6 pb-24" aria-labelledby="about-heading">
+        <section className="max-w-6xl mx-auto px-5 sm:px-6 pb-20 sm:pb-24" aria-labelledby="about-heading">
           <div className="rounded-3xl p-8 sm:p-12 text-center backdrop-blur-lg bg-card/50 border border-border/40">
             <div className="flex items-center justify-center gap-3 mb-6">
               <Users className="w-7 h-7 text-primary" />
-              <h2 id="about-heading" className="text-2xl sm:text-3xl font-bold text-foreground">
+              <h2 id="about-heading" className="text-3xl sm:text-3xl font-bold text-foreground">
                 Über uns
               </h2>
             </div>
@@ -327,8 +327,8 @@ const Index = () => {
         </section>
 
         {/* FAQ */}
-        <section className="max-w-3xl mx-auto px-4 sm:px-6 pb-24" aria-labelledby="faq-heading">
-          <h2 id="faq-heading" className="text-2xl sm:text-3xl font-bold text-center mb-12 text-foreground">
+        <section className="max-w-3xl mx-auto px-5 sm:px-6 pb-20 sm:pb-24" aria-labelledby="faq-heading">
+          <h2 id="faq-heading" className="text-3xl sm:text-3xl font-bold text-center mb-12 text-foreground">
             Häufig gestellte Fragen
           </h2>
           <Accordion type="single" collapsible className="space-y-3">
