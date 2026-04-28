@@ -132,7 +132,7 @@ const Index = () => {
 
       <main>
         {/* Hero */}
-        <section className="max-w-6xl mx-auto px-4 sm:px-6 pt-20 pb-16 sm:pt-32 sm:pb-24 text-center" aria-labelledby="hero-heading">
+        <section className="max-w-6xl mx-auto px-5 sm:px-6 pt-16 pb-20 sm:pt-32 sm:pb-24 text-center" aria-labelledby="hero-heading">
           <div className="flex justify-center mb-6">
             <img
               src={logo}
@@ -143,12 +143,12 @@ const Index = () => {
               loading="eager"
             />
           </div>
-          <h1 id="hero-heading" className="text-5xl sm:text-7xl font-extrabold tracking-tight mb-6">
+          <h1 id="hero-heading" className="text-6xl sm:text-7xl font-extrabold tracking-tight mb-6 leading-[1.05]">
             <span className="bg-gradient-to-r from-primary via-primary to-accent bg-clip-text text-transparent">
               SmartFridge
             </span>
           </h1>
-          <p className="text-xl sm:text-2xl font-semibold text-foreground max-w-3xl mx-auto mb-4">
+          <p className="text-2xl sm:text-2xl font-semibold text-foreground max-w-3xl mx-auto mb-4 leading-snug">
             Die Kühlschrank App, die Lebensmittelverschwendung vermeidet – mit KI-Rezeptgenerator.
           </p>
           <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed">
@@ -159,7 +159,7 @@ const Index = () => {
               href="https://docs.henristr.de/share/67ql3pqwwj/p/smart-fridge-installation-iKotdAW5TP"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-2xl text-base font-semibold bg-gradient-to-r from-primary to-accent text-primary-foreground hover:opacity-90 transition-all shadow-lg shadow-primary/25"
+              className="inline-flex w-full sm:w-auto items-center justify-center gap-2 px-8 py-4 sm:py-3.5 rounded-2xl text-lg sm:text-base font-semibold bg-gradient-to-r from-primary to-accent text-primary-foreground hover:opacity-90 transition-all shadow-xl shadow-primary/30 ring-1 ring-primary-foreground/10"
             >
               Jetzt testen
               <ArrowRight className="w-5 h-5" />
@@ -168,7 +168,7 @@ const Index = () => {
               href="https://github.com/henristr/SmartFridgePWA"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-2xl text-base font-medium bg-card/80 backdrop-blur border border-border/50 text-foreground hover:bg-primary/10 hover:border-primary/30 transition-all"
+              className="inline-flex w-full sm:w-auto items-center justify-center gap-2 px-8 py-4 sm:py-3.5 rounded-2xl text-base font-medium bg-card/80 backdrop-blur border border-border/50 text-foreground hover:bg-primary/10 hover:border-primary/30 transition-all"
             >
               <Github className="w-5 h-5" />
               Quellcode ansehen
@@ -182,8 +182,8 @@ const Index = () => {
         </section>
 
         {/* Problem */}
-        <section className="max-w-6xl mx-auto px-4 sm:px-6 pb-24" aria-labelledby="problem-heading">
-          <h2 id="problem-heading" className="text-2xl sm:text-3xl font-bold text-center mb-4 text-foreground">
+        <section className="max-w-6xl mx-auto px-5 sm:px-6 pb-20 sm:pb-24" aria-labelledby="problem-heading">
+          <h2 id="problem-heading" className="text-3xl sm:text-3xl font-bold text-center mb-4 text-foreground">
             Das Problem
           </h2>
           <p className="text-center text-muted-foreground max-w-2xl mx-auto mb-12">
@@ -206,11 +206,11 @@ const Index = () => {
         </section>
 
         {/* Lösung */}
-        <section className="max-w-6xl mx-auto px-4 sm:px-6 pb-24" aria-labelledby="solution-heading">
+        <section className="max-w-6xl mx-auto px-5 sm:px-6 pb-20 sm:pb-24" aria-labelledby="solution-heading">
           <div className="rounded-3xl p-8 sm:p-12 backdrop-blur-lg bg-primary/5 border border-primary/20">
             <div className="flex items-center justify-center gap-3 mb-6">
               <Lightbulb className="w-7 h-7 text-primary" />
-              <h2 id="solution-heading" className="text-2xl sm:text-3xl font-bold text-foreground">
+              <h2 id="solution-heading" className="text-3xl sm:text-3xl font-bold text-foreground">
                 Die Lösung: SmartFridge
               </h2>
             </div>
@@ -244,8 +244,8 @@ const Index = () => {
         </section>
 
         {/* Features */}
-        <section className="max-w-6xl mx-auto px-4 sm:px-6 pb-24" aria-labelledby="features-heading">
-          <h2 id="features-heading" className="text-2xl sm:text-3xl font-bold text-center mb-4 text-foreground">
+        <section className="max-w-6xl mx-auto px-5 sm:px-6 pb-20 sm:pb-24" aria-labelledby="features-heading">
+          <h2 id="features-heading" className="text-3xl sm:text-3xl font-bold text-center mb-4 text-foreground">
             Alle Funktionen
           </h2>
           <p className="text-center text-muted-foreground max-w-2xl mx-auto mb-12">
@@ -268,8 +268,8 @@ const Index = () => {
         </section>
 
         {/* Vorteile */}
-        <section className="max-w-6xl mx-auto px-4 sm:px-6 pb-24" aria-labelledby="benefits-heading">
-          <h2 id="benefits-heading" className="text-2xl sm:text-3xl font-bold text-center mb-12 text-foreground">
+        <section className="max-w-6xl mx-auto px-5 sm:px-6 pb-20 sm:pb-24" aria-labelledby="benefits-heading">
+          <h2 id="benefits-heading" className="text-3xl sm:text-3xl font-bold text-center mb-12 text-foreground">
             Deine Vorteile
           </h2>
           <div className="max-w-2xl mx-auto">
@@ -285,9 +285,9 @@ const Index = () => {
         </section>
 
         {/* CTA */}
-        <section className="max-w-6xl mx-auto px-4 sm:px-6 pb-24" aria-labelledby="cta-heading">
+        <section className="max-w-6xl mx-auto px-5 sm:px-6 pb-20 sm:pb-24" aria-labelledby="cta-heading">
           <div className="rounded-3xl p-8 sm:p-12 text-center bg-gradient-to-r from-primary to-accent">
-            <h2 id="cta-heading" className="text-2xl sm:text-3xl font-bold text-primary-foreground mb-4">
+            <h2 id="cta-heading" className="text-3xl sm:text-3xl font-bold text-primary-foreground mb-4">
               Bereit, deinen Kühlschrank smart zu machen?
             </h2>
             <p className="text-primary-foreground/80 max-w-xl mx-auto mb-8 text-base sm:text-lg">
@@ -306,11 +306,11 @@ const Index = () => {
         </section>
 
         {/* Über uns */}
-        <section className="max-w-6xl mx-auto px-4 sm:px-6 pb-24" aria-labelledby="about-heading">
+        <section className="max-w-6xl mx-auto px-5 sm:px-6 pb-20 sm:pb-24" aria-labelledby="about-heading">
           <div className="rounded-3xl p-8 sm:p-12 text-center backdrop-blur-lg bg-card/50 border border-border/40">
             <div className="flex items-center justify-center gap-3 mb-6">
               <Users className="w-7 h-7 text-primary" />
-              <h2 id="about-heading" className="text-2xl sm:text-3xl font-bold text-foreground">
+              <h2 id="about-heading" className="text-3xl sm:text-3xl font-bold text-foreground">
                 Über uns
               </h2>
             </div>
@@ -327,8 +327,8 @@ const Index = () => {
         </section>
 
         {/* FAQ */}
-        <section className="max-w-3xl mx-auto px-4 sm:px-6 pb-24" aria-labelledby="faq-heading">
-          <h2 id="faq-heading" className="text-2xl sm:text-3xl font-bold text-center mb-12 text-foreground">
+        <section className="max-w-3xl mx-auto px-5 sm:px-6 pb-20 sm:pb-24" aria-labelledby="faq-heading">
+          <h2 id="faq-heading" className="text-3xl sm:text-3xl font-bold text-center mb-12 text-foreground">
             Häufig gestellte Fragen
           </h2>
           <Accordion type="single" collapsible className="space-y-3">
@@ -350,8 +350,21 @@ const Index = () => {
         </section>
       </main>
 
+      {/* Sticky Mobile CTA */}
+      <div className="sm:hidden fixed bottom-0 inset-x-0 z-40 px-4 pb-4 pt-3 bg-gradient-to-t from-background via-background/95 to-background/0 pointer-events-none">
+        <a
+          href="https://docs.henristr.de/share/67ql3pqwwj/p/smart-fridge-installation-iKotdAW5TP"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="pointer-events-auto flex items-center justify-center gap-2 w-full px-6 py-4 rounded-2xl text-base font-semibold bg-gradient-to-r from-primary to-accent text-primary-foreground shadow-2xl shadow-primary/40 ring-1 ring-primary-foreground/10"
+        >
+          Jetzt testen
+          <ArrowRight className="w-5 h-5" />
+        </a>
+      </div>
+
       {/* Footer */}
-      <footer className="border-t border-border/40 py-8">
+      <footer className="border-t border-border/40 py-8 pb-28 sm:pb-8">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-muted-foreground/60">
             SmartFridge · Henri Stricker & Justus Böwer
