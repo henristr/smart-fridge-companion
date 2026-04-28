@@ -350,6 +350,19 @@ const Index = () => {
         </section>
       </main>
 
+      {/* Sticky Mobile CTA */}
+      <div className="sm:hidden fixed bottom-0 inset-x-0 z-40 px-4 pb-4 pt-3 bg-gradient-to-t from-background via-background/95 to-background/0 pointer-events-none">
+        <a
+          href="https://docs.henristr.de/share/67ql3pqwwj/p/smart-fridge-installation-iKotdAW5TP"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="pointer-events-auto flex items-center justify-center gap-2 w-full px-6 py-4 rounded-2xl text-base font-semibold bg-gradient-to-r from-primary to-accent text-primary-foreground shadow-2xl shadow-primary/40 ring-1 ring-primary-foreground/10"
+        >
+          Jetzt testen
+          <ArrowRight className="w-5 h-5" />
+        </a>
+      </div>
+
       {/* Footer */}
       <footer className="border-t border-border/40 py-8">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
