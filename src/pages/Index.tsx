@@ -132,7 +132,7 @@ const Index = () => {
 
       <main>
         {/* Hero */}
-        <section className="max-w-6xl mx-auto px-4 sm:px-6 pt-20 pb-16 sm:pt-32 sm:pb-24 text-center" aria-labelledby="hero-heading">
+        <section className="max-w-6xl mx-auto px-5 sm:px-6 pt-16 pb-20 sm:pt-32 sm:pb-24 text-center" aria-labelledby="hero-heading">
           <div className="flex justify-center mb-6">
             <img
               src={logo}
@@ -143,12 +143,12 @@ const Index = () => {
               loading="eager"
             />
           </div>
-          <h1 id="hero-heading" className="text-5xl sm:text-7xl font-extrabold tracking-tight mb-6">
+          <h1 id="hero-heading" className="text-6xl sm:text-7xl font-extrabold tracking-tight mb-6 leading-[1.05]">
             <span className="bg-gradient-to-r from-primary via-primary to-accent bg-clip-text text-transparent">
               SmartFridge
             </span>
           </h1>
-          <p className="text-xl sm:text-2xl font-semibold text-foreground max-w-3xl mx-auto mb-4">
+          <p className="text-2xl sm:text-2xl font-semibold text-foreground max-w-3xl mx-auto mb-4 leading-snug">
             Die Kühlschrank App, die Lebensmittelverschwendung vermeidet – mit KI-Rezeptgenerator.
           </p>
           <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed">
@@ -159,7 +159,7 @@ const Index = () => {
               href="https://docs.henristr.de/share/67ql3pqwwj/p/smart-fridge-installation-iKotdAW5TP"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-2xl text-base font-semibold bg-gradient-to-r from-primary to-accent text-primary-foreground hover:opacity-90 transition-all shadow-lg shadow-primary/25"
+              className="inline-flex w-full sm:w-auto items-center justify-center gap-2 px-8 py-4 sm:py-3.5 rounded-2xl text-lg sm:text-base font-semibold bg-gradient-to-r from-primary to-accent text-primary-foreground hover:opacity-90 transition-all shadow-xl shadow-primary/30 ring-1 ring-primary-foreground/10"
             >
               Jetzt testen
               <ArrowRight className="w-5 h-5" />
@@ -168,7 +168,7 @@ const Index = () => {
               href="https://github.com/henristr/SmartFridgePWA"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-2xl text-base font-medium bg-card/80 backdrop-blur border border-border/50 text-foreground hover:bg-primary/10 hover:border-primary/30 transition-all"
+              className="inline-flex w-full sm:w-auto items-center justify-center gap-2 px-8 py-4 sm:py-3.5 rounded-2xl text-base font-medium bg-card/80 backdrop-blur border border-border/50 text-foreground hover:bg-primary/10 hover:border-primary/30 transition-all"
             >
               <Github className="w-5 h-5" />
               Quellcode ansehen
