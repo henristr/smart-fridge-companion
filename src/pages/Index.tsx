@@ -118,7 +118,7 @@ const Index = () => {
               <span className="hidden sm:inline">GitHub</span>
             </a>
             <a
-              href="https://docs.henristr.de/share/67ql3pqwwj/p/smart-fridge-installation-iKotdAW5TP"
+              href="https://smartfridge.henristr.de/docs/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-medium bg-gradient-to-r from-primary to-accent text-primary-foreground hover:opacity-90 transition-all"
@@ -156,7 +156,7 @@ const Index = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center mb-6">
             <a
-              href="https://docs.henristr.de/share/67ql3pqwwj/p/smart-fridge-installation-iKotdAW5TP"
+              href="https://smartfridge.henristr.de/docs/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex w-full sm:w-auto items-center justify-center gap-2 px-8 py-4 sm:py-3.5 rounded-2xl text-lg sm:text-base font-semibold bg-gradient-to-r from-primary to-accent text-primary-foreground hover:opacity-90 transition-all shadow-xl shadow-primary/30 ring-1 ring-primary-foreground/10"
@@ -294,7 +294,7 @@ const Index = () => {
               Lebensmittel verwalten, Ablaufdaten tracken und KI-Rezepte generieren – starte jetzt kostenlos, direkt im Browser, ohne App Store.
             </p>
             <a
-              href="https://docs.henristr.de/share/67ql3pqwwj/p/smart-fridge-installation-iKotdAW5TP"
+              href="https://smartfridge.henristr.de/docs/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-2xl text-base font-semibold bg-primary-foreground text-primary hover:bg-primary-foreground/90 transition-all shadow-lg"
@@ -353,7 +353,7 @@ const Index = () => {
       {/* Sticky Mobile CTA */}
       <div className="sm:hidden fixed bottom-0 inset-x-0 z-40 px-4 pb-4 pt-3 bg-gradient-to-t from-background via-background/95 to-background/0 pointer-events-none">
         <a
-          href="https://docs.henristr.de/share/67ql3pqwwj/p/smart-fridge-installation-iKotdAW5TP"
+          href="https://smartfridge.henristr.de/docs/"
           target="_blank"
           rel="noopener noreferrer"
           className="pointer-events-auto flex items-center justify-center gap-2 w-full px-6 py-4 rounded-2xl text-base font-semibold bg-gradient-to-r from-primary to-accent text-primary-foreground shadow-2xl shadow-primary/40 ring-1 ring-primary-foreground/10"
@@ -373,7 +373,7 @@ const Index = () => {
             <a href="https://github.com/henristr/SmartFridgePWA" target="_blank" rel="noopener noreferrer" className="text-xs text-muted-foreground/60 hover:text-foreground transition-colors">
               GitHub
             </a>
-            <a href="https://docs.henristr.de/share/67ql3pqwwj/p/smart-fridge-installation-iKotdAW5TP" target="_blank" rel="noopener noreferrer" className="text-xs text-muted-foreground/60 hover:text-foreground transition-colors">
+            <a href="https://smartfridge.henristr.de/docs/" target="_blank" rel="noopener noreferrer" className="text-xs text-muted-foreground/60 hover:text-foreground transition-colors">
               Dokumentation
             </a>
           </div>
