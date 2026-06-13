@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://smartfridge.henristr.de/sitemap.xml
+Sitemap: https://opensmartfridge.de/sitemap.xml
